@@ -28,7 +28,7 @@ Two independent Am-241 radioactive calibration sources are permanently integrate
 HEL1OS was switched ON in orbit in October 2023, and its operational parameters—including detector biases and energy thresholds—were stabilized by June 2024. The typical observational products include 1-second cadence light curves and 20-second cadence Type-II OGIP spectral files, which are made available to the scientific community through the ISSDC–PRADAN data portal.
 
 ### 2.1 Why do we need two detectors?
-![Two Detectors](images/CombnedFit_CdTeCZT.png)
+![Two Detectors](images/CdTeCZT_CombinedFit.png)
 
 ### 2.2 Level-1 Data Structure
 ![Level 1 Data Structure](images/Level1_DataStructure.png)
