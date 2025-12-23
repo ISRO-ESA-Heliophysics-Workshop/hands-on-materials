@@ -36,13 +36,23 @@ If you need any more details on the HEL1OS instrument, refer **Nandi, A., Sudhak
 ### 2.2 Level-1 Data Structure
 ![Level 1 Data Structure](images/Level1_DataStructure.png)
 
-### 2.3 Accessing HEL1OS Data
+#### 2.2.1 **What is the Event List?** 
+The Event list can be considered as a fundamental data product and is represented by a table consisting of rows or "events". In X-ray photon counting detectors, an "event" corresponds to the **detection of a single X-ray photon** interacting with the detector. X-ray photons deposit energy in detectors which produces a **measurable electrical signal**. If the signal exceeds a pre-defined threshold, the detector electronics registers it as **one event**. 
+
+Each event is therefore a **time-tagged record** of a single photon interaction and typically includes: 
+- Arrival time - for example, 10 millisecond time-tagging for HEL1OS events. 
+- Energy information - derived from the amplitude of the electrical signal.
+- Spatial information - for example, pixel ID in the case of HEL1OS CZT detectors, etc.
+
+We generate derived data products like light curves and spectral files from the event list. For more details, refer **Section 3 *A Short Introduction to X-ray Data Analysis*** in the **HEL1OS User Manual**, which can can be accessed after logging into your user account in https://pradan1.issdc.gov.in/al1/. 
+
+## 3. Tools for processing and analyzing Level-1 Event Data 
+![HLS Event Data Analysis Tools](images/HEL1OS-ToolsFlowChart-Modified.png)
+
+## 4. Accessing HEL1OS Data
 ![HLS PRADAN 1](images/HLS_PRADAN1.png)
 ![HLS PRADAN 2](images/HLS_PRADAN2.png)
 ![HLS PRADAN 3](images/HLS_PRADAN3.png)
 ![HLS PRADAN 4](images/HLS_PRADAN4.png)
 
-## 3. Tools for processing and analyzing Level-1 Event Data 
-![HLS Event Data Analysis Tools](images/HEL1OS-ToolsFlowChart-Modified.png)
-
-## 4. Demo
+## 5. Demo
