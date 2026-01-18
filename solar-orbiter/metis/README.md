@@ -9,9 +9,9 @@ This Data Analysis Tutorial for Metis will guide you through the complete lifecy
 
 This notebook can be run online in Colab without any local installation. It’s the fastest way to get started:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ISRO-ESA-Heliophysics-Workshop/hands-on-materials/blob/main/solar-orbiter/metis/Metis_ISRO_ESA_DataWorkshop.ipynb)
- 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1V6uHdnDhPQRXjjh4FuLpWCSv_hYz3DF1?usp=sharing)
 ---
+
 **Run locally:**
 Prerequisites
 
