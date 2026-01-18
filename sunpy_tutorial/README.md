@@ -16,7 +16,7 @@ Please get involved within the SunPy community! Join us on our [element.io](http
 ## Running these notebooks in Google Colab
 
 You can open any notebook in this repository directly in **Google Colab**:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ISRO-ESA-Heliophysics-Workshop/hands-on-materials/blob/main/solar-orbiter/sunpy/sunpy_quick_tutorial.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ISRO-ESA-Heliophysics-Workshop/hands-on-materials/blob/main/solar-orbiter/sunpy_tutorial/sunpy_quick_tutorial.ipynb)
 
 If using the Google Colab link you need to install the required Python packages (run once per Colab session)
 After opening a notebook in Colab, insert a new code cell at the top and run:
