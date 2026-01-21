@@ -1,0 +1,32 @@
+
+# GCS Model on Multi-Spacecraft CME Observations (Metis + ASPIICS)
+
+This repository contains a Jupyter Notebook that demonstrates how to apply the **Graduated Cylindrical Shell (GCS)** forward model to **multi-spacecraft coronagraph observations** in order to reconstruct the **3D geometry and kinematics of CMEs**.
+
+The workflow fits a croissant-shaped flux-rope wireframe to CME images from multiple viewpoints (e.g., **Solar Orbiter/Metis** and **Proba-3/ASPIICS**) and then performs a simple **Height–Time (HT)** analysis to estimate CME speed from the fitted apex heights.
+
+## What the notebook does
+- Loads and time-orders coronagraph FITS images using `DATE-OBS` and `date_sun` (light-time corrected).
+- Builds and overlays the **GCS wireframe** on each viewpoint using `gcs_python` + SunPy.
+- Visualizes the CME in **simultaneous multi-view** (Metis + ASPIICS) and in **running-difference** mode.
+- Computes an example **HT curve** from a sequence of fitted heights and estimates the CME radial velocity.
+
+## References
+- Thernisien et al. 2009, 2011 (GCS model)
+- Thernisien et al. 2006 (model geometry)
+- Original GCS Python code: https://github.com/johan12345/gcs_python.git
+
+## Requirements
+The notebook is designed for Google Colab / Jupyter and installs the required packages on the fly:
+```bash
+pip install sunpy cmcrameri pyqtwebengine
+pip install git+https://github.com/johan12345/gcs_python.git
+pip install git+https://gitlab-as.oma.be/P3SC/aspiicsmap.git
+
+---
+**Run in COLAB**
+
+This notebook can be run online in Colab without any local installation. It’s the fastest way to get started:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-aO7uaUHEmU49pOEU3V-8KRSELNBAsaG?usp=sharing)
+---
