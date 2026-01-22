@@ -24,6 +24,10 @@ This notebook is a **starting point** — please run with it and explore.
 
 ---
 
+## Google Colab
+You can open any notebook in this repository directly in **Google Colab**:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ISRO-ESA-Heliophysics-Workshop/hands-on-materials/blob/main/science-workflows/01_flares_multimission/flare_workflow.ipynb)
+
 ## Data access
 
 This notebook includes steps for downloading data, however some parts may require files locally.
@@ -33,9 +37,7 @@ https://drive.google.com/drive/u/1/folders/1czUWf8y9TWfrYXVf4jA52ZFB8LzUaHlp
 
 ---
 
-## Open in google colab if you'd prefer:
-You can open any notebook in this repository directly in **Google Colab**:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ISRO-ESA-Heliophysics-Workshop/hands-on-materials/blob/main/science-workflows/01_flares_multimission/flare_workflow.ipynb)
+
 
 ---
 ## Use what you’ve seen in the tutorial sessions
